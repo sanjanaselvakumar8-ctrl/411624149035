@@ -1,0 +1,61 @@
+nav {
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 1024px) {
+    nav {
+        flex-direction: row;
+        gap: 15px;
+    }
+}
+
+img {
+    width: 250px;
+    border-radius: 20px;
+}
+
+video {
+    width: 50%;
+    padding: 10px;
+    background-color: green;
+}
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: lightgray;
+}
+button {
+    border: none;
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: green;
+    color: white;
+}
+button:hover{
+    background-color:red;
+    border-radius:5px;
+    
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 10px;
+    margin-top: 20px;
+}
+.box {
+    border: 1px solid black;
+    padding: 20px;
+}
+@media (max-width: 1023px) {
+    .grid-container {
+        grid-template-columns: 50% 50%;
+    }
+}

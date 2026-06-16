@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Two Numbers</title>
+
+    <style>
+        button {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="p1">Sanjana</p>
+
+    <input id="inp1" type="text" ><br><br>
+    <input id="inp2" type="text" ><br><br>
+
+    <button onclick="addNumbers()">Add</button>
+    <script>
+        function addNumbers() {
+            let x = document.getElementById("inp1").value;
+            let y = document.getElementById("inp2").value;
+            let sum = parseInt(x) + parseInt(y);
+            document.getElementById("p1").innerHTML = sum;
+        }
+    </script>
+</body>
+</html>
