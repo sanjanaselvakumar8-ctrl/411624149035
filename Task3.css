@@ -1,0 +1,79 @@
+/* Center the page */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* Card */
+.container {
+    width: 450px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Input */
+input {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 18px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#addBtn {
+    background-color: green;
+}
+
+#clearBtn {
+    background-color: red;
+}
+
+#addBtn:hover {
+    background-color: darkgreen;
+}
+
+#clearBtn:hover {
+    background-color: darkred;
+}
+
+/* Messages */
+#messages {
+    margin-top: 20px;
+}
+
+#messages div {
+    background: #eeeeee;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Status */
+#status {
+    margin-top: 15px;
+    font-weight: bold;
+}
